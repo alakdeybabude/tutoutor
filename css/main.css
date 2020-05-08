@@ -1,0 +1,645 @@
+/* ====================================================
+  Template Name: WordPress Fair HTML5 landing page
+  Template URI: http://dreamroadtech.com/templates/morix-preview/
+  Description: WordPress Fair HTML5 landing page
+  Author: Abc It Park
+  Author URI: http://www.abcitpark.com
+  version: 1.0
+==================================================== */
+
+/* CSS Index
+------------------------------------
+
+01. Template Default CSS 
+02. header css
+
+
+
+
+
+
+*/
+
+/* ====================================================
+  Google Fonts
+==================================================== */
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Rubik:300,400,500,700&display=swap');
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+
+p {
+  line-height: 32px;
+}
+
+ul {
+  list-style: none;
+ 
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+li a {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+
+/* ====================================================
+   Author's custom styles
+   ==================================================== */
+
+/* ..................................
+ 02.  header css 
+.................................. */
+.section-padding{
+  padding: 100px 0 100px 0;
+}
+.btn-2{
+  padding: 0 30px;
+  border-bottom: 1px solid #333;
+}
+.search-box {
+  border: none;
+  border-bottom: 1px solid #111;
+  background-color: beige;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  width: 150px;
+}
+.fa-search{
+  margin-left: -25px;
+}
+.header-btn {
+  margin-left: 36px;
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 12px 18px;
+  background-color:#F93D3E ;
+}
+/* ..................................
+ 01. home CSS 
+.................................. */
+.carousel-content{
+  padding-bottom: 150px;
+  overflow: hidden;
+}
+.carousel-content h3{
+  font-size: 22px;
+  font-weight: 600;
+  color: #f7aa13;
+}
+.carousel-content h1{
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+  display: inline-block;
+  width: 80%;
+}
+.carousel-content p{
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  display: inline-block;
+  width: 60%;
+}
+
+.btn-1{
+  display: inline-block;
+  background-color: #2C72F3;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  font-size:18px ;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.btn-2{
+  display: inline-block;
+  background-color: #f7aa13;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  margin-left: 10px;
+  font-size: 18px;
+
+}
+.custom-indictors li{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid transparent
+}
+.dark:before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(12, 3, 3);
+  opacity: 0.6;
+
+
+}
+/* slider2 -start */
+
+.bg-colors{
+  background-color: #F2F7FC;
+  padding: 30px 0
+}
+.img-inner{
+  width: 100%;
+  height: auto;
+  color: black;
+  
+}
+.img-inner1{
+  width: 100%;
+  height: auto;
+  margin-top: 12px;
+}
+.img-inner2{
+  width: 100%;
+  height: auto;
+}
+.img-inner3{
+  width: 90%;
+  height: auto;
+}
+.img-inner-44{
+  width: 65%;
+  height: auto;
+  margin-top: 12px;
+}
+.img-inner4{
+  width: 90%;
+  height: auto;
+}
+/* slider2 -end */
+.card-bg{
+  background-image: url("../img/feature_bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-1{
+  background-color:#014FE1;
+  transition: 0.3s;
+}
+.card-2{
+  background-color:#0ACC86;
+  transition: 0.3s;
+}
+.card-3{
+  background-color:#F5B016;
+  transition: 0.3s;
+}
+.card-4{
+  background-color:#F85757;
+  transition: 0.3s;
+}
+.card-1:hover{
+  background-color:#F5B016
+}
+.card-2:hover{
+  background-color:#F85757
+}
+.card-3:hover{
+  background-color:#014FE1
+}
+.card-4:hover{
+  background-color: #0ACC86
+}
+.card-text h5{
+ color: #fff;
+ font-size: 22px;
+ font-weight: 700;
+ line-height: 30px;
+}
+.card-text p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+ }
+
+.card-text img{
+  max-width: 40px;
+  max-height: 40px;
+  margin-left: 24px;
+ 
+}
+
+.card-img-content {
+  padding: 20px 14px;
+}
+
+
+
+/* ..................................
+ 01. course CSS start
+.................................. */
+.course-section{
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+.section-heading{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.course-text{
+  text-align: center;
+  text-transform: capitalize;
+  padding-bottom: 32px;
+}
+.course-text h5{
+  color: #F5B016;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.course-text h2{
+ font-size: 48px;
+ font-weight: 700;
+ color: #333;
+}
+.course-text p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+}
+.course-content h5{
+  font-size: 24px;
+  font-weight: 700;
+  color: #111;
+  padding: 15px 0;
+}
+
+/* .price span{
+  font-size: 20px;
+}
+.price{
+  display:flex ;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.star {
+  display: inline-block;
+  width: 100px;
+  height: 33px;
+  line-height: 33px;
+  font-size: 14px;
+}
+.star .fa-star{
+  color: #F5B016
+} */
+.price{
+  display: flex;
+  justify-content: space-between;
+  width: 295px;
+  height: 25px;
+  line-height: 25px;font-size: 16px;
+  flex-direction: row;
+}
+.star i{
+  font-size: 13px;
+  color: #F5B016
+}
+.star span{
+  margin-left: 12px;
+}
+.img-box{
+  position: relative;
+}
+.img-box-1:before{
+  position: absolute;
+  display: inline-block;
+  content: "Data & Tech";
+  width: 107px;
+  height: 30px;
+  background-color: #7665FF;
+  color: #fff;
+  left: 40px;
+  bottom: -14px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+}
+.img-box-2:before{
+  position: absolute;
+  display: inline-block;
+  content: "Mathematics";
+  width: 107px;
+  height: 30px;
+  background-color: #FD29C5;
+  color: #fff;
+  left: 40px;
+  bottom: -14px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+}
+.img-box-3:before{
+  position: absolute;
+  display: inline-block;
+  content: "Digital Marketing";
+  width: 150px;
+  height: 30px;
+  background-color: #F5B016;
+  color: #fff;
+  left: 40px;
+  bottom: -14px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+}
+.img-box-4:before{
+  position: absolute;
+  display: inline-block;
+  content: "Art & Design";
+  width: 107px;
+  height: 30px;
+  background-color: #3478F6;
+  color: #fff;
+  left: 40px;
+  bottom: -14px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+}
+.img-box-5:before{
+  position: absolute;
+  display: inline-block;
+  content: "Business Study";
+  width: 130px;
+  height: 30px;
+  background-color: #F20F10;
+  color: #fff;
+  left: 40px;
+  bottom: -14px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+}
+.img-box-6:before{
+  position: absolute;
+  display: inline-block;
+  content: "Psychology";
+  width: 130px;
+  height: 30px;
+  background-color: #0ACC86;
+  color: #fff;
+  left: 40px;
+  bottom: -14px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+}
+.col-margin-bottom{
+  margin-bottom: 40px;
+}
+
+
+
+.course-card{
+  transition: 0.9s all ease;
+  position: relative;
+  box-shadow: 0px 0px 6px #999;
+}
+.card-hover{
+  visibility: hidden;;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #0ACC86;
+  border-radius: 5px;
+  color:#fff;
+
+}
+.course-card:hover .card-hover
+ {
+  visibility: visible;
+  transition: 0.9s all ease;
+  
+}
+
+.text-hover {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  background: #9184FF;
+  font-size: 18px;
+}
+.hover-img{
+  margin-bottom: 15px;
+}
+.hover-img img {
+  width: 54px;
+  margin-right: 10%;
+}
+.hover-img span{
+  font-size:18px;
+  font-weight:600;
+}
+.card-hover p {
+  font-size: 18px;
+  display: inline-block;
+  width: 329px;
+  line-height: 25px;
+  padding: 22px 0 25px;
+  position: relative;
+ 
+}
+.card-hover .fa-star{
+  color: #fff;
+}
+.card-hover .price:before {
+  content: "";
+  display: inline-block;
+  width: 90%;
+  text-align: center;
+  height: 0.5px;
+  background-color: #F2F7FC;
+  position: absolute;
+  left: 10px;
+  bottom: 78px
+}
+
+/* ..................................
+  discover section CSS start
+.................................. */
+.discover-section{
+  background-image: url("../img/asset\ 30.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #7665FF;
+}
+.discover-section-content{
+  padding-top: 15px;
+  color:#fff;
+  padding-bottom: 150px;
+  
+}
+.discover-text h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 63px;
+}
+.discover-text p {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  width: 650px;
+  line-height: 26px;
+}
+.discover-btn .btn-1{
+  background-color: #02C86B;
+}
+.discover-btn .btn-1:hover{
+  background-color: #F20F10;
+}
+.discover-btn .btn-2:hover{
+  background-color: #F20F10;
+}
+.counter-area {
+  background-color: #02C86B;
+  text-align: center;
+  padding: 18px 0;
+  border-radius: 12px;
+  margin-top: -88px;
+}
+
+.single-box {
+  
+  
+  text-align: center;
+  
+  color: #fff;
+  padding: 30px;
+}
+.single-box h2{
+  font-size: 36px;
+  font-weight: 700;
+
+}
+.single-box h4{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+}
+/* ..................................
+ about section CSS start
+.................................. */
+.about-heading h5{
+  font-size: 18px;
+  color: #F5B016;
+  font-weight: 700;
+}
+.about-heading h2{
+  font-size: 48px;
+  color: #333;
+  font-weight: 700;
+}
+.about-heading p{
+  font-size: 16px;
+  color: #555;
+  font-weight: 500;
+}
+.about-card {
+  display: block;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0px 0px 6px #999;
+}
+.about-start {
+  color: #F5B016;
+  padding: 26px;
+}
+.about-content-text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+.about-content-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.profile-info h3{
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  padding-top: 5px;
+
+}
+.profile-info h3{
+  font-size: 20px;
+  font-weight: 500;
+  color: #555;
+
+}
+
+.profile-info {
+  padding-top: 40px;
+  border-top: 1px solid #777;
+  margin-bottom: -64px;
+}
+.profile-info img{
+  display: inline-block;
+}
+
+/* ..................................
+ 01. footer CSS 
+.................................. */
